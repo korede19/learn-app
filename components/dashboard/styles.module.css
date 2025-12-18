@@ -2,3 +2,9 @@
   padding: 32px;
   background: #f9fafb;
 }
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 20px 16px;
+  }
+}

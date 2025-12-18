@@ -56,3 +56,12 @@
 .slider::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .sliderContainer {
+    padding: 0 16px;
+  }
+  .slider {
+    gap: 10px;
+  }
+}

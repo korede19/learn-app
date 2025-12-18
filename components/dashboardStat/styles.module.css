@@ -11,6 +11,9 @@
 }
 
 @media (max-width: 1024px) {
+  .container {
+    padding: 20px 16px;
+  }
   .statsGrid {
     grid-template-columns: 1fr;
   }
