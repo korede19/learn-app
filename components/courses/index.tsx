@@ -6,7 +6,7 @@ import AllCourses from "./allCourses";
 import SavedCourses from "./saved/savedCourses";
 import { TopMentors } from "./mentors/topMentors";
 
-const data: CoursesData = coursesData;
+const data: CoursesData = coursesData as CoursesData;
 
 export const CourseApp: React.FC = () => {
   return (
