@@ -53,16 +53,17 @@ const PageLayout: React.FC<FounderLayoutProps> = ({
             <div className={styles.linkContain}>
               {sideBar.slice(0, 4).map((items, index) => {
                 return (
-                  <div
+                  <Link
                     key={index}
+                    href={items.link}
                     className={`${styles.menuListing} ${
                       items.link === pathname ? styles.active : ""
                     }`}
                     onClick={closeMobileMenu}
                   >
                     {items.icon}
-                    <Link href={items.link}>{items.label}</Link>
-                  </div>
+                    <p>{items.label}</p>
+                  </Link>
                 );
               })}
             </div>
@@ -72,16 +73,17 @@ const PageLayout: React.FC<FounderLayoutProps> = ({
             <div className={styles.linkContain}>
               {sideBar.slice(4, 6).map((items, index) => {
                 return (
-                  <div
+                  <Link
                     key={index}
+                    href={items.link}
                     className={`${styles.menuListing} ${
                       pathname.startsWith(items.link) ? styles.active : ""
                     }`}
                     onClick={closeMobileMenu}
                   >
                     {items.icon}
-                    <Link href={items.link}>{items.label}</Link>
-                  </div>
+                    <p>{items.label}</p>
+                  </Link>
                 );
               })}
             </div>
@@ -91,16 +93,17 @@ const PageLayout: React.FC<FounderLayoutProps> = ({
             <div className={styles.linkContain}>
               {sideBar.slice(6, 9).map((items, index) => {
                 return (
-                  <div
+                  <Link
                     key={index}
                     className={`${styles.menuListing} ${
                       items.link === pathname ? styles.active : ""
                     }`}
                     onClick={closeMobileMenu}
+                    href={items.link}
                   >
                     {items.icon}
-                    <Link href={items.link}>{items.label}</Link>
-                  </div>
+                    <p>{items.label}</p>
+                  </Link>
                 );
               })}
             </div>
