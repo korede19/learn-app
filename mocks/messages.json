@@ -1,0 +1,184 @@
+{
+  "currentUser": {
+    "id": 1,
+    "name": "You",
+    "avatar": "ME",
+    "avatarBg": "#5E72E4",
+    "status": "Online"
+  },
+  "conversations": [
+    {
+      "id": 1,
+      "participants": [
+        {
+          "id": 2,
+          "name": "Maria Jehan",
+          "avatar": "MJ",
+          "avatarBg": "#5E72E4",
+          "status": "Online"
+        }
+      ],
+      "lastMessage": {
+        "id": 101,
+        "conversationId": 1,
+        "senderId": 2,
+        "content": "Hey! How's the new course coming along?",
+        "timestamp": "2024-12-18T10:30:00Z",
+        "read": false,
+        "type": "text"
+      },
+      "unreadCount": 2,
+      "isPinned": true,
+      "isMuted": false,
+      "isGroup": false
+    },
+    {
+      "id": 2,
+      "participants": [
+        {
+          "id": 3,
+          "name": "Saidul Mardeen",
+          "avatar": "SM",
+          "avatarBg": "#2DCE89",
+          "status": "Online"
+        }
+      ],
+      "lastMessage": {
+        "id": 102,
+        "conversationId": 2,
+        "senderId": 3,
+        "content": "Thanks for the feedback on the 3D rendering module!",
+        "timestamp": "2024-12-18T09:15:00Z",
+        "read": true,
+        "type": "text"
+      },
+      "unreadCount": 0,
+      "isPinned": false,
+      "isMuted": false,
+      "isGroup": false
+    },
+    {
+      "id": 3,
+      "participants": [
+        {
+          "id": 4,
+          "name": "Chemic Haydar",
+          "avatar": "CH",
+          "avatarBg": "#FB6340",
+          "status": "Away"
+        }
+      ],
+      "lastMessage": {
+        "id": 103,
+        "conversationId": 3,
+        "senderId": 4,
+        "content": "I've updated the design files as discussed",
+        "timestamp": "2024-12-17T16:45:00Z",
+        "read": true,
+        "type": "text"
+      },
+      "unreadCount": 0,
+      "isPinned": false,
+      "isMuted": false,
+      "isGroup": false
+    },
+    {
+      "id": 4,
+      "participants": [
+        {
+          "id": 5,
+          "name": "Design Team",
+          "avatar": "DT",
+          "avatarBg": "#11CDEF",
+          "status": "Online"
+        }
+      ],
+      "lastMessage": {
+        "id": 104,
+        "conversationId": 4,
+        "senderId": 5,
+        "content": "Meeting scheduled for tomorrow at 2 PM",
+        "timestamp": "2024-12-17T14:20:00Z",
+        "read": true,
+        "type": "text"
+      },
+      "unreadCount": 0,
+      "isPinned": true,
+      "isMuted": false,
+      "isGroup": true,
+      "groupName": "Design Team"
+    },
+    {
+      "id": 5,
+      "participants": [
+        {
+          "id": 6,
+          "name": "Andy J. Pizza",
+          "avatar": "AP",
+          "avatarBg": "#F5365C",
+          "status": "Offline"
+        }
+      ],
+      "lastMessage": {
+        "id": 105,
+        "conversationId": 5,
+        "senderId": 1,
+        "content": "Got it, I'll review the video editing course",
+        "timestamp": "2024-12-16T11:30:00Z",
+        "read": true,
+        "type": "text"
+      },
+      "unreadCount": 0,
+      "isPinned": false,
+      "isMuted": true,
+      "isGroup": false
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Hi! I saw your new course on digital marketing",
+      "timestamp": "2024-12-18T10:00:00Z",
+      "read": true,
+      "type": "text"
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Yes! I'm really excited about it. What do you think?",
+      "timestamp": "2024-12-18T10:05:00Z",
+      "read": true,
+      "type": "text"
+    },
+    {
+      "id": 3,
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "It's amazing! The content structure is really well thought out",
+      "timestamp": "2024-12-18T10:10:00Z",
+      "read": true,
+      "type": "text"
+    },
+    {
+      "id": 4,
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Thank you! I worked really hard on the curriculum",
+      "timestamp": "2024-12-18T10:15:00Z",
+      "read": true,
+      "type": "text"
+    },
+    {
+      "id": 5,
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Hey! How's the new course coming along?",
+      "timestamp": "2024-12-18T10:30:00Z",
+      "read": false,
+      "type": "text"
+    }
+  ]
+}

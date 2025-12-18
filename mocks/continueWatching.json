@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "thumbnail": "/assets/frontend.jpg",
+      "category": "FRONTEND",
+      "title": "Beginner's Guide To Becoming A Professional Frontend Developer",
+      "progress": 45,
+      "instructor": {
+        "name": "Prashant Kumar Singh",
+        "role": "Software Developer",
+        "avatar": "/assets/users.png"
+      }
+    },
+    {
+      "id": 2,
+      "thumbnail": "/assets/course-2.jpg",
+      "category": "BACKEND",
+      "title": "Beginner's Guide To Becoming A Professional Backend Developer",
+      "progress": 60,
+      "instructor": {
+        "name": "Prashant Kumar Singh",
+        "role": "Software Developer",
+        "avatar": "/assets/users.png"
+      }
+    },
+    {
+      "id": 3,
+      "thumbnail": "/assets/course-3.jpeg",
+      "category": "FRONTEND",
+      "title": "Beginner's Guide To Becoming A Professional Frontend Developer",
+      "progress": 30,
+      "instructor": {
+        "name": "Prashant Kumar Singh",
+        "role": "Software Developer",
+        "avatar": "/assets/users.png"
+      }
+    },
+    {
+      "id": 4,
+      "thumbnail": "/assets/course-4.webp",
+      "category": "BACKEND",
+      "title": "Complete Backend Development Bootcamp",
+      "progress": 25,
+      "instructor": {
+        "name": "Prashant Kumar Singh",
+        "role": "Software Developer",
+        "avatar": "/assets/users.png"
+      }
+    },
+    {
+      "id": 5,
+      "thumbnail": "/assets/course-5.webp",
+      "category": "PRODUCT DESIGN",
+      "title": "Beginner's Guide To Becoming A Professional Product Designer",
+      "progress": 10,
+      "instructor": {
+        "name": "Prashant Kumar Singh",
+        "role": "Product Designer",
+        "avatar": "/assets/users.png"
+      }
+    }
+  ]
+}

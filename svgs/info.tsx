@@ -1,0 +1,19 @@
+import React from "react";
+
+const Info = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#5865F2"
+        d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2m1 15h-2v-6h2zm0-8h-2V7h2z"
+      />
+    </svg>
+  );
+};
+
+export default Info;

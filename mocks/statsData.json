@@ -1,0 +1,44 @@
+{
+  "popularCourses": [
+    {
+      "id": 1,
+      "name": "UX/UI Design",
+      "count": 4226,
+      "color": "#ef4444",
+      "icon": "🔥"
+    },
+    {
+      "id": 2,
+      "name": "Android development",
+      "count": 3845,
+      "color": "#3b82f6",
+      "icon": "💧"
+    },
+    {
+      "id": 3,
+      "name": "iOS development",
+      "count": 3501,
+      "color": "#06b6d4",
+      "icon": "💧"
+    },
+    {
+      "id": 4,
+      "name": "Graphic design",
+      "count": 2431,
+      "color": "#8b5cf6",
+      "icon": "💧"
+    }
+  ],
+  "myProgress": {
+    "totalHours": 134,
+    "selectedMonth": "June 2020",
+    "visitedLectures": {
+      "completed": 75,
+      "total": 115
+    },
+    "completedTasks": {
+      "completed": 32,
+      "total": 94
+    }
+  }
+}

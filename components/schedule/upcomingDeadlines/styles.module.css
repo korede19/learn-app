@@ -1,0 +1,96 @@
+.container {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 0px 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.viewAllButton {
+  padding: 8px 16px;
+  background: white;
+  color: #7c3aed;
+  border: 2px solid #7c3aed;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.viewAllButton:hover {
+  background: #faf5ff;
+}
+
+.deadlinesList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.deadlineCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 12px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.deadlineCard:hover {
+  background: #f3f4f6;
+  transform: translateX(4px);
+}
+
+.priorityIndicator {
+  width: 4px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.priorityHigh {
+  background: #ef4444;
+}
+
+.priorityMedium {
+  background: #f59e0b;
+}
+
+.deadlineContent {
+  flex: 1;
+}
+
+.deadlineTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 4px 0;
+}
+
+.deadlineCourse {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.deadlineDate {
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7c3aed;
+}

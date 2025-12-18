@@ -1,0 +1,105 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "date": "2024-01-10",
+      "day": "Mon",
+      "dayNumber": 10,
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "type": "Lecture",
+      "title": "Mobile design",
+      "color": "orange",
+      "instructor": "Sarah Johnson",
+      "location": "Room 101"
+    },
+    {
+      "id": 2,
+      "date": "2024-01-11",
+      "day": "Tue",
+      "dayNumber": 11,
+      "startTime": "14:00",
+      "endTime": "18:00",
+      "type": "Exam",
+      "title": "UX Design",
+      "color": "blue",
+      "instructor": "Michael Chen",
+      "location": "Exam Hall A"
+    },
+    {
+      "id": 3,
+      "date": "2024-01-12",
+      "day": "Wed",
+      "dayNumber": 12,
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "type": "Exam",
+      "title": "Marketing",
+      "color": "cyan",
+      "instructor": "David Lee",
+      "location": "Room 205"
+    },
+    {
+      "id": 4,
+      "date": "2024-01-12",
+      "day": "Wed",
+      "dayNumber": 12,
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "type": "Practise",
+      "title": "UI Design",
+      "color": "red",
+      "instructor": "Emma Wilson",
+      "location": "Lab 3"
+    },
+    {
+      "id": 5,
+      "date": "2024-01-13",
+      "day": "Thu",
+      "dayNumber": 13,
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "type": "Practise",
+      "title": "UI Design",
+      "color": "red",
+      "instructor": "Emma Wilson",
+      "location": "Lab 3"
+    },
+    {
+      "id": 6,
+      "date": "2024-01-14",
+      "day": "Fri",
+      "dayNumber": 14,
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "type": "Exam",
+      "title": "Mobile design",
+      "color": "orange",
+      "instructor": "Sarah Johnson",
+      "location": "Exam Hall B"
+    }
+  ],
+  "upcomingDeadlines": [
+    {
+      "id": 1,
+      "title": "UI Design Project Submission",
+      "dueDate": "2024-01-15",
+      "course": "UI Design",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "title": "Marketing Case Study",
+      "dueDate": "2024-01-18",
+      "course": "Marketing",
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "title": "Mobile App Prototype",
+      "dueDate": "2024-01-20",
+      "course": "Mobile Design",
+      "priority": "high"
+    }
+  ]
+}

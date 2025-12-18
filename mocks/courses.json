@@ -1,0 +1,178 @@
+{
+  "allCourses": [
+    {
+      "id": 1,
+      "title": "Website Developemet (React.Js)",
+      "instructor": "Andy J. Pizza",
+      "image": "⚛️",
+      "bgColor": "#E3F2FD",
+      "category": "technology",
+      "duration": "4 weeks",
+      "students": 1250
+    },
+    {
+      "id": 2,
+      "title": "3D Rendering",
+      "instructor": "Saidul Mardeen",
+      "image": "🎨",
+      "bgColor": "#F3E5F5",
+      "category": "design",
+      "duration": "6 weeks",
+      "students": 980
+    },
+    {
+      "id": 3,
+      "title": "Backend Development",
+      "instructor": "Wahab k.",
+      "image": "⚙️",
+      "bgColor": "#E1F5FE",
+      "category": "technology",
+      "duration": "5 weeks",
+      "students": 2100
+    },
+    {
+      "id": 4,
+      "title": "VAR Tutorial",
+      "instructor": "Moni Jahan",
+      "image": "🥽",
+      "bgColor": "#FCE4EC",
+      "category": "technology",
+      "duration": "3 weeks",
+      "students": 750
+    },
+    {
+      "id": 5,
+      "title": "Crypto Trading for Beginners",
+      "instructor": "W. Sheikh",
+      "image": "📈",
+      "bgColor": "#E0F2F1",
+      "category": "trading",
+      "duration": "4 weeks",
+      "students": 1500
+    },
+    {
+      "id": 6,
+      "title": "Photography",
+      "instructor": "S.J. Kabir",
+      "image": "📷",
+      "bgColor": "#EDE7F6",
+      "category": "design",
+      "duration": "5 weeks",
+      "students": 1800
+    },
+    {
+      "id": 7,
+      "title": "Product Design",
+      "instructor": "Moni Islam",
+      "image": "💻",
+      "bgColor": "#b3fcf9",
+      "category": "technology",
+      "duration": "3 weeks",
+      "students": 750
+    },
+    {
+      "id": 8,
+      "title": "Crypto Trading Advance",
+      "instructor": "W. Sheikh",
+      "image": "📊📈",
+      "bgColor": "#f7eacb",
+      "category": "trading",
+      "duration": "4 weeks",
+      "students": 1500
+    },
+    {
+      "id": 9,
+      "title": "Forex Trading",
+      "instructor": "I.G. Manteen",
+      "image": "📉",
+      "bgColor": "#9dd0f5",
+      "category": "trading",
+      "duration": "5 weeks",
+      "students": 1800
+    }
+  ],
+  "topMentors": [
+    {
+      "id": 1,
+      "name": "Maria Jehan",
+      "role": "Product Lead",
+      "avatar": "MJ",
+      "avatarBg": "#5E72E4",
+      "status": "verified",
+      "courses": 12,
+      "students": 5400
+    },
+    {
+      "id": 2,
+      "name": "Saidul Islam",
+      "role": "CEO of SMStudio",
+      "avatar": "SI",
+      "avatarBg": "#2DCE89",
+      "status": "verified",
+      "courses": 8,
+      "students": 3200
+    },
+    {
+      "id": 3,
+      "name": "Chemic Haydar",
+      "role": "Twitter Designer",
+      "avatar": "CH",
+      "avatarBg": "#FB6340",
+      "status": "verified",
+      "courses": 15,
+      "students": 7800
+    }
+  ],
+  "savedCourses": [
+    {
+      "id": 1,
+      "title": "Crypto Trading Advance",
+      "lessons": "90+ lessons in this",
+      "image": "💰",
+      "progress": 45,
+      "lastAccessed": "2024-12-15"
+    },
+    {
+      "id": 2,
+      "title": "Youtube and Video Editing",
+      "lessons": "Total 120 lessons",
+      "image": "📹",
+      "progress": 60,
+      "lastAccessed": "2024-12-16"
+    },
+    {
+      "id": 3,
+      "title": "Gaming & Caper",
+      "lessons": "105 total lesson about gaming",
+      "image": "🎮",
+      "progress": 30,
+      "lastAccessed": "2024-12-14"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Design",
+      "slug": "design",
+      "count": 24
+    },
+    {
+      "id": 2,
+      "name": "Marketing",
+      "slug": "marketing",
+      "count": 18
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "slug": "technology",
+      "count": 32
+    },
+    {
+      "id": 4,
+      "name": "Trading",
+      "slug": "trading",
+      "count": 15
+    }
+  ]
+}

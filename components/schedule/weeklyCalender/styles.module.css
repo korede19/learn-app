@@ -1,0 +1,422 @@
+.calendarContainer {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.headerActions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.todayButton {
+  padding: 8px 16px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.todayButton:hover {
+  border-color: #7c3aed;
+  color: #7c3aed;
+}
+
+.navigationButtons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.navButton {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navButton:hover {
+  border-color: #7c3aed;
+  color: #7c3aed;
+}
+
+.weekRange {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "inter", sans-serif;
+  color: #4b4c4d;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+.timeHeader {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.timeSlot {
+  height: 80px;
+  font-family: "inter", sans-serif;
+  font-size: 12px;
+  color: #686868;
+  padding-right: 12px;
+  text-align: right;
+  border-right: 2px solid #f3f4f6;
+}
+
+.daysContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  min-width: 600px;
+}
+
+.dayColumn {
+  border-left: 2px solid #f3f4f6;
+  padding-left: 12px;
+  min-width: 120px;
+}
+
+.dayHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+.dayNumber {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "inter", sans-serif;
+  color: #1a1a1a;
+}
+
+.dayName {
+  font-size: 12px;
+  font-family: "inter", sans-serif;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.eventsGrid {
+  display: grid;
+  grid-template-rows: repeat(10, 40px);
+  gap: 8px;
+  position: relative;
+}
+
+.eventCard {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-left: 4px solid;
+}
+
+.eventCard:hover {
+  transform: translateX(1px);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.eventOrange {
+  background: #fff7ed;
+  border-color: #fb923c;
+}
+
+.eventBlue {
+  background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  color: white;
+  border-color: #2563eb;
+}
+
+.eventCyan {
+  background: #ecfeff;
+  border-color: #06b6d4;
+}
+
+.eventRed {
+  background: #fef2f2;
+  border-color: #ef4444;
+}
+
+.eventType {
+  font-size: 12px;
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.eventTitle {
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.modalContent {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.modalHeader h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding-right: 16px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #9ca3af;
+  flex-shrink: 0;
+}
+
+.modalBody {
+  margin-bottom: 24px;
+}
+
+.modalRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f3f4f6;
+  gap: 16px;
+}
+
+.modalLabel {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.modalValue {
+  color: #1a1a1a;
+  text-align: right;
+}
+
+.modalFooter {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.joinButton {
+  flex: 1;
+  min-width: 120px;
+  padding: 12px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.joinButton:hover {
+  background: #6d28d9;
+}
+
+.detailsButton {
+  flex: 1;
+  min-width: 120px;
+  padding: 12px;
+  background: white;
+  color: #7c3aed;
+  border: 2px solid #7c3aed;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.detailsButton:hover {
+  background: #faf5ff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .calendarContainer {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .headerActions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .weekRange {
+    font-size: 12px;
+  }
+
+  .calendarGrid {
+    gap: 8px;
+  }
+
+  .timeSlot {
+    height: 60px;
+    font-size: 10px;
+    padding-right: 8px;
+  }
+
+  .daysContainer {
+    gap: 8px;
+    min-width: 500px;
+  }
+
+  .dayColumn {
+    padding-left: 8px;
+    min-width: 100px;
+  }
+
+  .dayNumber {
+    font-size: 24px;
+  }
+
+  .dayName {
+    font-size: 12px;
+  }
+
+  .eventsGrid {
+    grid-template-rows: repeat(10, 30px);
+    gap: 6px;
+  }
+
+  .eventCard {
+    padding: 8px;
+  }
+
+  .eventType {
+    font-size: 10px;
+  }
+
+  .eventTitle {
+    font-size: 12px;
+  }
+
+  .modalContent {
+    padding: 20px;
+    margin: 16px;
+  }
+
+  .modalHeader h3 {
+    font-size: 18px;
+  }
+
+  .modalFooter {
+    flex-direction: column;
+  }
+
+  .joinButton,
+  .detailsButton {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .calendarContainer {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .todayButton {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .navButton {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+  }
+
+  .daysContainer {
+    min-width: 400px;
+  }
+
+  .dayColumn {
+    min-width: 80px;
+  }
+
+  .timeSlot {
+    height: 50px;
+  }
+
+  .eventsGrid {
+    grid-template-rows: repeat(10, 25px);
+  }
+}

@@ -1,0 +1,43 @@
+.savedCourseItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 8px;
+}
+
+.savedCourseItemHover {
+  background-color: #f7fafc;
+}
+
+.savedCourseIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #f7fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.savedCourseInfo {
+  flex: 1;
+}
+
+.savedCourseTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a202c;
+  margin: 0 0 4px 0;
+}
+
+.savedCourseLessons {
+  font-size: 12px;
+  color: #718096;
+  margin: 0;
+}

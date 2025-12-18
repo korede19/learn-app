@@ -1,0 +1,134 @@
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.progressContainer {
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.progressHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.monthButton {
+  padding: 8px 16px;
+  background: #eff6ff;
+  color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+
+.monthButton:hover {
+  background: #dbeafe;
+}
+
+.progressContent {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.circularProgress {
+  position: relative;
+  width: 192px;
+  height: 192px;
+  flex-shrink: 0;
+}
+
+.progressSvg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.progressCircle {
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.hoursDisplay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoursNumber {
+  font-size: 38px;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.statBar {
+  width: 4px;
+  height: 48px;
+  border-radius: 2px;
+}
+
+.statContent {
+  flex: 1;
+}
+
+.statValue {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 4px 0;
+}
+
+.statLabel {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .progressContent {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

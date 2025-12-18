@@ -1,0 +1,21 @@
+import React from "react";
+
+const Play = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 20 20"
+    >
+      <path
+        fill="#fff"
+        fillRule="evenodd"
+        d="M10 18a8 8 0 1 0 0-16a8 8 0 0 0 0 16M9.555 7.168A1 1 0 0 0 8 8v4a1 1 0 0 0 1.555.832l3-2a1 1 0 0 0 0-1.664z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+
+export default Play;
