@@ -6,7 +6,7 @@ import { MessagesData } from "../../../types/message";
 import ConversationList from "../conversationList";
 import ChatWindow from "../chatWindow";
 
-const data: MessagesData = messagesData;
+const data = messagesData as MessagesData;
 
 export const MessagesApp: React.FC = () => {
   const [activeConversationId, setActiveConversationId] = useState<
